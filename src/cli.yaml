@@ -1,0 +1,14 @@
+name: echor
+version: "1.0"
+author: sdaigo <stain.witness@gmail.com>
+about: Rust echo
+args:
+  - text:
+      about: Input Text
+      value_name: TEXT
+      required: true
+      min_values: 1
+  - omit_newline:
+      about: Do not print newline
+      takes_value: false
+      short: n
